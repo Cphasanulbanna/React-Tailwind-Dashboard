@@ -19,7 +19,7 @@
         @apply block w-[100%] h-[100%];
     }
     body {
-        @apply overflow-x-hidden min-h-full;
+        @apply min-h-full overflow-x-hidden;
     }
     input {
         @apply outline-none h-[45px] w-[100%] text-[16px] placeholder:text-[14px] py-[5px] text-[#111];
@@ -29,6 +29,17 @@
     }
     li.icon {
         @apply w-[30px] h-[30px] cursor-pointer mb-[45px] last:mb-[0];
+    }
+    button {
+        @apply w-[100%] p-[10px] cursor-pointer flex items-center justify-center text-[18px] font-[500] text-black rounded-[25px] overflow-hidden bg-grey;
+    }
+    *::-webkit-scrollbar {
+        width: 5px;
+        background-color: #1a083e;
+        display: none;
+    }
+    *::-webkit-scrollbar-thumb {
+        background-color: #6967c3;
     }
 
     /* MENU HOVER ANIMATION */

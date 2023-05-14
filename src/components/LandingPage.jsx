@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
+import MenuOptions from "./MenuOptions";
 import Menu from "./Menu";
 
 function LandingPage() {
@@ -10,7 +11,8 @@ function LandingPage() {
             <section className="right w-[100%]">
                 <Header />
                 <section className="middle flex justify-between mt-[25px]">
-                    <div className="left-box flex flex-col">
+                    <div className="flex flex-col left-box">
+                        <MenuOptions />
                         <Menu />
                     </div>
                     <div className="right"></div>
