@@ -2,7 +2,7 @@ import React from "react";
 
 function PaymentCard() {
     return (
-        <div className="flex flex-col gap-[20px]">
+        <div className="flex flex-col gap-[15px] mt-[15px]">
             <h1 className="font-[500] text-black text-[16px]">Payement</h1>
             <div className="methods flex gap-[12px] items-center">
                 <span className="tag">Cash</span>

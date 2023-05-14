@@ -41,11 +41,11 @@ function Cart() {
                             <span className="text-black text-[16px] font-[500]">{item?.price}</span>
                         </div>
                         <div className="flex gap-[10px] items-center">
-                            <span className="font-[700] flex items-center justify-center w-[25px] h-[25px]  text-black p-[5px] cursor-pointer  rounded-[50%] overflow-hidden border-black border-solid border-[1.5px]">
+                            <span className="font-[700] flex items-center justify-center w-[25px] h-[25px]  text-black p-[5px] cursor-pointer  rounded-[50%] overflow-hidden border-black border-solid border-[2px]">
                                 -
                             </span>
-                            <span>1</span>
-                            <span className="flex items-center justify-center  w-[25px] h-[25px]  text-black p-[5px] cursor-pointer  rounded-[50%] overflow-hidden border-black border-solid border-[1.5px]">
+                            <span className="font-[600]">1</span>
+                            <span className="font-[700] flex items-center justify-center  w-[25px] h-[25px]  text-black p-[5px] cursor-pointer  rounded-[50%] overflow-hidden border-black border-solid border-[2px]">
                                 +
                             </span>
                         </div>

@@ -32,6 +32,8 @@ export default {
                 liteorange: "#F6F5F4",
                 ash: "#D9D9D9",
                 orange: "#FF7B00",
+                green: "#21702f",
+                red: "#d9340b",
             },
         },
     },

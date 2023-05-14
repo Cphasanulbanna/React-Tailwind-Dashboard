@@ -3,6 +3,7 @@ import React from "react";
 //components
 import Cart from "./Cart";
 import PaymentCard from "./PaymentCard";
+import AmountSection from "./AmountSection";
 
 function Billing() {
     return (
@@ -18,6 +19,8 @@ function Billing() {
                     <span className="tag">Delivery</span>
                 </div>
                 <Cart />
+
+                <AmountSection />
             </div>
 
             <PaymentCard />

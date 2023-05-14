@@ -19,7 +19,7 @@
         @apply block w-[100%] h-[100%];
     }
     body {
-        @apply min-h-full overflow-x-hidden;
+        @apply min-h-full overflow-hidden;
     }
     input {
         @apply outline-none h-[45px] w-[100%] text-[16px] placeholder:text-[14px] py-[5px] text-[#111];
