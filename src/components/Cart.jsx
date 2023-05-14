@@ -15,7 +15,7 @@ function Cart() {
             image: "../../public/assets/images/product2.png",
         },
         {
-            id: 1,
+            id: 3,
             name: "china Beans",
             price: "$50",
             image: "../../public/assets/images/product3.png",

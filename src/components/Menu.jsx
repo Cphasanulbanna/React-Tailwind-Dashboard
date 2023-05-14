@@ -62,7 +62,10 @@ function Menu() {
             <h1 className="title text-[24px] font-[700] text-black mb-[20px]">Beans Menu</h1>
             <div className="grid grid-cols-2 menu-box gap-[25px] overflow-y-auto max-h-[460px]">
                 {products?.map((product) => (
-                    <div className="flex flex-col product bg-ash p-[20px] rounded-[20px] overflow-hidden">
+                    <div
+                        key={product?.id}
+                        className="flex flex-col product bg-ash p-[20px] rounded-[20px] overflow-hidden"
+                    >
                         <div className="flex justify-between top">
                             <div className="image w-[150px] rounded-[12px] mr-[12px] overflow-hidden">
                                 <img

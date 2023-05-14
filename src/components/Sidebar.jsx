@@ -48,6 +48,7 @@ function Sidebar() {
                 <ul className="pl-[20px]">
                     {options?.map((option) => (
                         <li
+                            key={option?.id}
                             className="icon"
                             onMouseEnter={() => setId(option?.id)}
                             onMouseLeave={() => setId(null)}
