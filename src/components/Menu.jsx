@@ -58,7 +58,7 @@ function Menu() {
         },
     ];
     return (
-        <div className="w-[75%] mt-[25px] pb-[40px]">
+        <div className="mt-[25px] pb-[40px]">
             <h1 className="title text-[24px] font-[700] text-black mb-[20px]">Beans Menu</h1>
             <div className="grid grid-cols-2 menu-box gap-[25px] overflow-y-auto max-h-[460px]">
                 {products?.map((product) => (

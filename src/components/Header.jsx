@@ -41,9 +41,9 @@ function Header() {
                         <h2 className="font-[500] text-black text-[14]">Alex Jorad</h2>
                     </div>
                     <div className="flex items-center justify-center bg-grey rounded-[25px] overflow-hidden cursor-pointer p-[12px] ml-[15px]">
-                        <div className="w-[20px] h-[20px] mr-[10px]">
+                        <div className="w-[15px] h-[15px] mr-[10px]">
                             <img
-                                src="./assets/images/icon.png"
+                                src="./assets/images/add.png"
                                 alt="add"
                             />
                         </div>

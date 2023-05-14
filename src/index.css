@@ -49,4 +49,11 @@
     li.menu-item:hover div {
         @apply bg-white;
     }
+
+    .tag {
+        @apply text-[14px] inline-block py-[8px] px-[12px] cursor-pointer bg-ash text-black rounded-[25px] overflow-hidden text-center hover:bg-black hover:text-white transition font-[500];
+    }
+    .tag.active {
+        @apply text-white transition bg-black;
+    }
 }

@@ -13,12 +13,12 @@ function LandingPage() {
             <Sidebar />
             <section className="right w-[100%]">
                 <Header />
-                <section className="middle flex justify-between mt-[25px]">
-                    <div className="flex flex-col left-box">
+                <section className="middle flex justify-between mt-[25px] mr-[30px]">
+                    <div className="flex flex-col left-box w-[70%]">
                         <MenuOptions />
                         <Menu />
                     </div>
-                    <div className="right">
+                    <div className="right w-[28%] pb-[40px]">
                         <Billing />
                     </div>
                 </section>
