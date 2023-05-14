@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ANOTHER WAY OF STYLING[OVERWRITING] */
-@layer base {
-}
-
-/* ANOTHER WAY */
+/* COMMON CSS */
 @layer base {
     * {
         background: transparent;
@@ -33,5 +29,13 @@
     }
     li.icon {
         @apply w-[30px] h-[30px] cursor-pointer mb-[45px] last:mb-[0];
+    }
+
+    /* MENU HOVER ANIMATION */
+    li.menu-item:hover span {
+        @apply text-white;
+    }
+    li.menu-item:hover div {
+        @apply bg-white;
     }
 }
