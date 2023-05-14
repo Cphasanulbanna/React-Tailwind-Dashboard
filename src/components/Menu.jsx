@@ -80,7 +80,7 @@ function Menu() {
                                 </h3>
                             </div>
                         </div>
-                        <button className="mt-[15px]">View Deatails</button>
+                        <button className="mt-[15px] text-[16px]">View Deatails</button>
                     </div>
                 ))}
             </div>

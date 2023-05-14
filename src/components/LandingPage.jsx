@@ -1,8 +1,11 @@
 import React from "react";
+
+//components
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 import MenuOptions from "./MenuOptions";
 import Menu from "./Menu";
+import Billing from "./Billing";
 
 function LandingPage() {
     return (
@@ -15,7 +18,9 @@ function LandingPage() {
                         <MenuOptions />
                         <Menu />
                     </div>
-                    <div className="right"></div>
+                    <div className="right">
+                        <Billing />
+                    </div>
                 </section>
             </section>
         </section>
