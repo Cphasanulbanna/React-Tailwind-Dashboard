@@ -10,18 +10,14 @@ export default {
             "2xl": "35px",
         },
         screens: {
-            sm: { max: "360px" },
-            sm2: { max: "480px" },
-            md: { max: "540px" },
-            md2: { max: "640px" },
-            md3: { max: "680px" },
-            md4: { max: "768px" },
-            lg: { max: "980px" },
-            lg2: { max: "1080px" },
-            xl: { max: "1280px" },
-            xl2: { max: "1400px" },
-            xl3: { max: "1480px" },
+            1280: { max: "1280px" },
+            1180: { max: "1180px" },
+            1080: { max: "1080px" },
+            sm1: { max: "980px" },
+            sm2: { max: "640px" },
+            sm3: { max: "480px" },
         },
+
         spacing: generateSpacing(1, 500),
         extend: {
             colors: {

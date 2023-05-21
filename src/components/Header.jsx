@@ -9,7 +9,8 @@ function Header() {
                     <h1 className="text-black font-[700] text-[22px]">Let's choose menu</h1>
                 </div>
             </div>
-            <div className="flex items-center rounded-[25px] relative bg-ash max-w-[380px] overflow-hidden w-[35%] ">
+
+            <div className="flex items-center rounded-[25px] relative bg-ash max-w-[380px] overflow-hidden w-[35%] 1280:w-[28%]">
                 <input
                     className="pl-[15px]"
                     type="text"
@@ -22,7 +23,8 @@ function Header() {
                     />
                 </div>
             </div>
-            <div className="flex items-center justify-evenly w-[30%]">
+
+            <div className="flex items-center justify-evenly w-[30%] 1280:w-[50%]">
                 <div className="w-[20px] j-[20px] cursor-pointer">
                     <img
                         src="./assets/images/icon.png"

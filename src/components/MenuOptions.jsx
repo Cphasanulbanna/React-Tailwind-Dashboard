@@ -10,11 +10,11 @@ function MenuOptions() {
     ];
     return (
         <div>
-            <ul className="flex items-center gap-[20px]">
+            <ul className="flex items-center gap-[20px] 1080:overflow-x-scroll">
                 {menu?.map((item) => (
                     <li
                         key={item?.id}
-                        className="menu-item flex items-center cursor-pointer bg-ash py-[10px] px-[14px] rounded-[25px] overflow-hidden hover:bg-orange transition"
+                        className="1080:min-w-[150px] menu-item flex items-center cursor-pointer bg-ash py-[10px] px-[14px] rounded-[25px] overflow-hidden hover:bg-orange transition"
                     >
                         <div className="menu-icon w-[30px] h-[30px] flex items-center bg-grey p-[7px] rounded-[50%] overflow-hidden">
                             <img
